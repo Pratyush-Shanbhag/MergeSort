@@ -3,10 +3,14 @@
 
 using namespace std;
 
-void MergeSort::mergeSort() {
+void MergeSort::merge() {
+
+}
+
+void MergeSort::mergeSort(int lindex, int rindex) {
 
 }
 
 void MergeSort::sort() {
-    mergeSort();
+    
 }
