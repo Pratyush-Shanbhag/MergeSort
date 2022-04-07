@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void MergeSort::merge() {
+void MergeSort::merge(int lindex, int midindex, int rindex) {
 
 }
 
@@ -12,7 +12,7 @@ void MergeSort::mergeSort(int lindex, int rindex) {
         int midindex = (lindex + rindex) / 2;
         mergeSort(lindex, midindex);
         mergeSort(midindex + 1, rindex);
-        merge();
+        merge(lindex, midindex, rindex);
     }
 }
 

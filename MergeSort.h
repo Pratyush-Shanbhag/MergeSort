@@ -6,7 +6,7 @@
 
 class MergeSort: public Sort {
     public:
-        void merge();
+        void merge(int, int, int);
         void mergeSort(int, int);
         void sort();
 };
