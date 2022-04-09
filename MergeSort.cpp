@@ -17,5 +17,5 @@ void MergeSort::mergeSort(int lindex, int rindex) {
 }
 
 void MergeSort::sort() {
-
+    mergeSort(0, static_cast<int>(sizeof arr / sizeof arr[0]));
 }
